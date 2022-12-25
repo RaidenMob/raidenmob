@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+.top-container{
+    background-color: #BFEAF5;
+    position: relative;
+    padding: 100px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.top-cloud{
+    position: absolute;
+    top: 300px;
+    bottom: 500px;
+    left: 200px;
+}
+.mountain{
+    position: relative;
+    top: 104px;
+    height: 450px;
+}
+a{
+    color: #11999E;
+}
+.coding{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 1000px;
+}
+.profilepc{
+    width: 200px;
+    height: 200px;
+}
+hr{
+    border: dotted;
+    border-top: none;
+    color: grey;
+    width: 5%;
+    border-width: 5px;
+}
+.middle-comtainer{
+    position: relative;
+}
+.photography{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 100px;
+    
+}
+.skill-row1{
+    text-align: center;
+    position: relative;
+    left: 500px;
+}
+.table2{
+    text-align: center;
+}
+.bottom-container{
+    background-color: #BFEAF5;
+    margin-bottom: 0;
+    position: relative;
+    padding: 50px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+  }
+  
+.wrapper{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    left: 1400px;
+    top: 20px;
+}
+  
+.link_wrapper{
+    position: relative;
+}
+  
+.aaa{
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+}
+  
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+}
+  
+.icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: #2ecc71;
+    transition: all .35s;
+}
+  
+.aaa:hover{
+    width: 200px;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+}
+  
+.aaa:hover + .icon{
+    border: 3px solid #2ecc71;
+    right: -25%;
+}
